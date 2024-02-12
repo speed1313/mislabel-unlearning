@@ -1,0 +1,33 @@
+[project]
+name = "mislabel-unlearning"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "speed1313", email = "speedtry13@icloud.com" }
+]
+dependencies = [
+    "torch>=2.2.0",
+    "torchvision>=0.17.0",
+    "matplotlib>=3.8.2",
+    "jax[cpu]>=0.4.24",
+    "flax>=0.8.1",
+    "optax>=0.1.9",
+    "tqdm>=4.66.2",
+    "ml_collections>=0.1.1",
+    "scikit-learn>=1.4.0",
+]
+readme = "README.md"
+requires-python = ">= 3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "ruff>=0.2.1",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
