@@ -17,17 +17,17 @@ $ pip install .
 Perform experiments with the following commands:
 - Detection of mislabeled data:
 ```
-$ rye run python3 src/mnist_detection.py
+$ python3 src/mnist_detection.py
 ```
 
 - Unlearning mislabeled data:
 ```
-$ rye run python3 src/mnist_unlearning.py
+$ python3 src/mnist_unlearning.py
 ```
 
 - Unlearning detected data:
 ```
-$ rye run python3 src/mnist_pipelnie.py
+$ python3 src/mnist_pipelnie.py
 ```
 
 ## Customization
