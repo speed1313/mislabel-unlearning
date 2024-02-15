@@ -7,22 +7,33 @@ Code for the domestic conference paper, "Improving Generalization Performance of
 
 
 # How to use
-- setup
+## Installation
+- Install dependencies.
 ```
-$ rye sync
+$ pip install .
 ```
 
-- Detection of mislabeled data
+## Experiments
+Perform experiments with the following commands:
+- Detection of mislabeled data:
 ```
 $ rye run python3 src/mnist_detection.py
 ```
 
-- Unlearning mislabeled data
+- Unlearning mislabeled data:
 ```
 $ rye run python3 src/mnist_unlearning.py
 ```
 
-- Unlearning detected data
+- Unlearning detected data:
 ```
 $ rye run python3 src/mnist_pipelnie.py
 ```
+
+## Customization
+- Hyperparameters can be set with command line arguments.
+```
+$ python3 src/mnist_detection.py --h
+usage: mnist_detection.py [-h] [--noise_ratio NOISE_RATIO] [--learning_rate LEARNING_RATE]
+                          [--momentum MOMENTUM] [--batch_size BATCH_SIZE] [--num_epochs NUM_EPOCHS]
+                          [--hidden_size HIDDEN_SIZE] [--sample_per_class SAMPLE_PER_CLASS] [--mode MODE]
