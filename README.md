@@ -1,5 +1,5 @@
 # mislabel-unlearning
-Code for the domestic conference paper, "Improving Generalization Performance of Trained Models by Unlearning Mislabeled Data", [16th Forum on Data Engineering and Information Management (DEIM2024)](https://confit.atlas.jp/guide/event/deim2024/top?lang=en).
+The code for the domestic conference paper, "Improving Generalization Performance of Trained Models by Unlearning Mislabeled Data", [16th Forum on Data Engineering and Information Management (DEIM2024)](https://confit.atlas.jp/guide/event/deim2024/top?lang=en).
 
 
 ![proposed method](./images/proposed.png)
